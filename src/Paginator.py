@@ -12,10 +12,14 @@ class Simple(discord.ui.View):
     ----------
     timeout: int
         How long the Paginator should timeout in, after the last interaction. (In seconds) (Overrides default of 60)
+    InitialButton: discord.ui.Button
+        Overrides default initial button
     PreviousButton: discord.ui.Button
         Overrides default previous button.
     NextButton: discord.ui.Button
         Overrides default next button.
+    FinalButton: discord.ui.Button
+        Overrides default final button.
     PageCounterStyle: discord.ButtonStyle
         Overrides default page counter style.
     InitialPage: int
