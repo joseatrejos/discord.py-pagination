@@ -31,7 +31,7 @@ class Simple(discord.ui.View):
                  InitialButton: discord.ui.Button = discord.ui.Button(emoji=discord.PartialEmoji(name="\U000023ee")),
                  PreviousButton: discord.ui.Button = discord.ui.Button(emoji=discord.PartialEmoji(name="\U000025c0")),
                  NextButton: discord.ui.Button = discord.ui.Button(emoji=discord.PartialEmoji(name="\U000025b6")),
-                 LastButton: discord.ui.Button = discord.ui.Button(emoji=discord.PartialEmoji(name="\U000023ee")),
+                 LastButton: discord.ui.Button = discord.ui.Button(emoji=discord.PartialEmoji(name="\U000023ed")),
                  PageCounterStyle: discord.ButtonStyle = discord.ButtonStyle.grey,
                  InitialPage: int = 0,
                  ephemeral: bool = False) -> None:
