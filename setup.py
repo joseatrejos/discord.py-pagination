@@ -11,7 +11,7 @@ setup(
     long_description_content_type='text/markdown',
     py_modules=["Paginator"],
     package_dir={'': "src"},
-    url="https://github.com/soosBot-com/Pagination",
+    url="https://github.com/joseatrejos/discord.py-pagination",
     author="soosBot",
     author_email="support@soosbot.com",
     classifiers=[
